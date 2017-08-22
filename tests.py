@@ -1,5 +1,5 @@
 import unittest
-from .format_price import format_price
+from format_price import format_price
 
 
 class TestPrice(unittest.TestCase):
