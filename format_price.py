@@ -22,3 +22,4 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Price string formatting tool')
     parser.add_argument('price', help='Price to format')
     parameters = parser.parse_args()
+    print(format_price(parameters.price))
